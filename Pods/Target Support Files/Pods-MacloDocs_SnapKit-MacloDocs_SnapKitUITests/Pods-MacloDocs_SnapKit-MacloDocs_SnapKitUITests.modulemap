@@ -1,0 +1,6 @@
+framework module Pods_MacloDocs_SnapKit_MacloDocs_SnapKitUITests {
+  umbrella header "Pods-MacloDocs_SnapKit-MacloDocs_SnapKitUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

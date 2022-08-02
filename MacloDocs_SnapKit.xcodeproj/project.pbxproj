@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39F9D27A18CD4EBE0AADE31E /* Pods_MacloDocs_SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0777EACD03F5856A2F920EC5 /* Pods_MacloDocs_SnapKit.framework */; };
+		565480442898DC12007F6259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565480432898DC12007F6259 /* AppDelegate.swift */; };
+		565480462898DC12007F6259 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565480452898DC12007F6259 /* SceneDelegate.swift */; };
+		5654804D2898DC14007F6259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5654804C2898DC14007F6259 /* Assets.xcassets */; };
+		565480502898DC14007F6259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5654804E2898DC14007F6259 /* LaunchScreen.storyboard */; };
+		5654805B2898DC14007F6259 /* MacloDocs_SnapKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5654805A2898DC14007F6259 /* MacloDocs_SnapKitTests.swift */; };
+		565480652898DC14007F6259 /* MacloDocs_SnapKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565480642898DC14007F6259 /* MacloDocs_SnapKitUITests.swift */; };
+		565480672898DC14007F6259 /* MacloDocs_SnapKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565480662898DC14007F6259 /* MacloDocs_SnapKitUITestsLaunchTests.swift */; };
+		565480762898E06D007F6259 /* MakeConstraintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565480752898E06D007F6259 /* MakeConstraintsViewController.swift */; };
+		D0941BF69FDF7A35D7B7EB53 /* Pods_MacloDocs_SnapKit_MacloDocs_SnapKitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC78825514D3959F203BE19 /* Pods_MacloDocs_SnapKit_MacloDocs_SnapKitUITests.framework */; };
+		ED18EB884A9C311372C0F9CC /* Pods_MacloDocs_SnapKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AF008DC41EB399AC0511CE /* Pods_MacloDocs_SnapKitTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		565480572898DC14007F6259 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 565480382898DC12007F6259 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5654803F2898DC12007F6259;
+			remoteInfo = MacloDocs_SnapKit;
+		};
+		565480612898DC14007F6259 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 565480382898DC12007F6259 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5654803F2898DC12007F6259;
+			remoteInfo = MacloDocs_SnapKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0777EACD03F5856A2F920EC5 /* Pods_MacloDocs_SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MacloDocs_SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E192D15263B99218B6BB2E /* Pods-MacloDocs_SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacloDocs_SnapKit.debug.xcconfig"; path = "Target Support Files/Pods-MacloDocs_SnapKit/Pods-MacloDocs_SnapKit.debug.xcconfig"; sourceTree = "<group>"; };
+		2EC78825514D3959F203BE19 /* Pods_MacloDocs_SnapKit_MacloDocs_SnapKitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MacloDocs_SnapKit_MacloDocs_SnapKitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B03DB9F644187C2FC6F9C63 /* Pods-MacloDocs_SnapKit-MacloDocs_SnapKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacloDocs_SnapKit-MacloDocs_SnapKitUITests.debug.xcconfig"; path = "Target Support Files/Pods-MacloDocs_SnapKit-MacloDocs_SnapKitUITests/Pods-MacloDocs_SnapKit-MacloDocs_SnapKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		565480402898DC12007F6259 /* MacloDocs_SnapKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacloDocs_SnapKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		565480432898DC12007F6259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		565480452898DC12007F6259 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5654804C2898DC14007F6259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5654804F2898DC14007F6259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		565480512898DC14007F6259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		565480562898DC14007F6259 /* MacloDocs_SnapKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacloDocs_SnapKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5654805A2898DC14007F6259 /* MacloDocs_SnapKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacloDocs_SnapKitTests.swift; sourceTree = "<group>"; };
+		565480602898DC14007F6259 /* MacloDocs_SnapKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacloDocs_SnapKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		565480642898DC14007F6259 /* MacloDocs_SnapKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacloDocs_SnapKitUITests.swift; sourceTree = "<group>"; };
+		565480662898DC14007F6259 /* MacloDocs_SnapKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacloDocs_SnapKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		565480752898E06D007F6259 /* MakeConstraintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeConstraintsViewController.swift; sourceTree = "<group>"; };
+		771DBAFE105757A915E6082F /* Pods-MacloDocs_SnapKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacloDocs_SnapKitTests.debug.xcconfig"; path = "Target Support Files/Pods-MacloDocs_SnapKitTests/Pods-MacloDocs_SnapKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		84F1CE99EE6CA01E743FF255 /* Pods-MacloDocs_SnapKit-MacloDocs_SnapKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacloDocs_SnapKit-MacloDocs_SnapKitUITests.release.xcconfig"; path = "Target Support Files/Pods-MacloDocs_SnapKit-MacloDocs_SnapKitUITests/Pods-MacloDocs_SnapKit-MacloDocs_SnapKitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8D4EA1A734DC3065DB032932 /* Pods-MacloDocs_SnapKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacloDocs_SnapKitTests.release.xcconfig"; path = "Target Support Files/Pods-MacloDocs_SnapKitTests/Pods-MacloDocs_SnapKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		D24BB8084BC3C707D6923312 /* Pods-MacloDocs_SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacloDocs_SnapKit.release.xcconfig"; path = "Target Support Files/Pods-MacloDocs_SnapKit/Pods-MacloDocs_SnapKit.release.xcconfig"; sourceTree = "<group>"; };
+		F0AF008DC41EB399AC0511CE /* Pods_MacloDocs_SnapKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MacloDocs_SnapKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5654803D2898DC12007F6259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F9D27A18CD4EBE0AADE31E /* Pods_MacloDocs_SnapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565480532898DC14007F6259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED18EB884A9C311372C0F9CC /* Pods_MacloDocs_SnapKitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5654805D2898DC14007F6259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0941BF69FDF7A35D7B7EB53 /* Pods_MacloDocs_SnapKit_MacloDocs_SnapKitUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5381C704016E1462ADF74285 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20E192D15263B99218B6BB2E /* Pods-MacloDocs_SnapKit.debug.xcconfig */,
+				D24BB8084BC3C707D6923312 /* Pods-MacloDocs_SnapKit.release.xcconfig */,
+				4B03DB9F644187C2FC6F9C63 /* Pods-MacloDocs_SnapKit-MacloDocs_SnapKitUITests.debug.xcconfig */,
+				84F1CE99EE6CA01E743FF255 /* Pods-MacloDocs_SnapKit-MacloDocs_SnapKitUITests.release.xcconfig */,
+				771DBAFE105757A915E6082F /* Pods-MacloDocs_SnapKitTests.debug.xcconfig */,
+				8D4EA1A734DC3065DB032932 /* Pods-MacloDocs_SnapKitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		565480372898DC12007F6259 = {
+			isa = PBXGroup;
+			children = (
+				565480422898DC12007F6259 /* MacloDocs_SnapKit */,
+				565480592898DC14007F6259 /* MacloDocs_SnapKitTests */,
+				565480632898DC14007F6259 /* MacloDocs_SnapKitUITests */,
+				565480412898DC12007F6259 /* Products */,
+				5381C704016E1462ADF74285 /* Pods */,
+				A0400D5AA377DC0EFD8CB80E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		565480412898DC12007F6259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				565480402898DC12007F6259 /* MacloDocs_SnapKit.app */,
+				565480562898DC14007F6259 /* MacloDocs_SnapKitTests.xctest */,
+				565480602898DC14007F6259 /* MacloDocs_SnapKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		565480422898DC12007F6259 /* MacloDocs_SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				565480742898E042007F6259 /* Controllers */,
+				565480732898E035007F6259 /* Lifecycle */,
+				5654804C2898DC14007F6259 /* Assets.xcassets */,
+				5654804E2898DC14007F6259 /* LaunchScreen.storyboard */,
+				565480512898DC14007F6259 /* Info.plist */,
+			);
+			path = MacloDocs_SnapKit;
+			sourceTree = "<group>";
+		};
+		565480592898DC14007F6259 /* MacloDocs_SnapKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				5654805A2898DC14007F6259 /* MacloDocs_SnapKitTests.swift */,
+			);
+			path = MacloDocs_SnapKitTests;
+			sourceTree = "<group>";
+		};
+		565480632898DC14007F6259 /* MacloDocs_SnapKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				565480642898DC14007F6259 /* MacloDocs_SnapKitUITests.swift */,
+				565480662898DC14007F6259 /* MacloDocs_SnapKitUITestsLaunchTests.swift */,
+			);
+			path = MacloDocs_SnapKitUITests;
+			sourceTree = "<group>";
+		};
+		565480732898E035007F6259 /* Lifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				565480432898DC12007F6259 /* AppDelegate.swift */,
+				565480452898DC12007F6259 /* SceneDelegate.swift */,
+			);
+			path = Lifecycle;
+			sourceTree = "<group>";
+		};
+		565480742898E042007F6259 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				565480752898E06D007F6259 /* MakeConstraintsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A0400D5AA377DC0EFD8CB80E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0777EACD03F5856A2F920EC5 /* Pods_MacloDocs_SnapKit.framework */,
+				2EC78825514D3959F203BE19 /* Pods_MacloDocs_SnapKit_MacloDocs_SnapKitUITests.framework */,
+				F0AF008DC41EB399AC0511CE /* Pods_MacloDocs_SnapKitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5654803F2898DC12007F6259 /* MacloDocs_SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5654806A2898DC14007F6259 /* Build configuration list for PBXNativeTarget "MacloDocs_SnapKit" */;
+			buildPhases = (
+				B1419118313A8E2DF7BF2248 /* [CP] Check Pods Manifest.lock */,
+				5654803C2898DC12007F6259 /* Sources */,
+				5654803D2898DC12007F6259 /* Frameworks */,
+				5654803E2898DC12007F6259 /* Resources */,
+				0EC549BE8385DB4A0A9D7DC2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacloDocs_SnapKit;
+			productName = MacloDocs_SnapKit;
+			productReference = 565480402898DC12007F6259 /* MacloDocs_SnapKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		565480552898DC14007F6259 /* MacloDocs_SnapKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5654806D2898DC14007F6259 /* Build configuration list for PBXNativeTarget "MacloDocs_SnapKitTests" */;
+			buildPhases = (
+				C4658AB4D79876A50C7893B0 /* [CP] Check Pods Manifest.lock */,
+				565480522898DC14007F6259 /* Sources */,
+				565480532898DC14007F6259 /* Frameworks */,
+				565480542898DC14007F6259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				565480582898DC14007F6259 /* PBXTargetDependency */,
+			);
+			name = MacloDocs_SnapKitTests;
+			productName = MacloDocs_SnapKitTests;
+			productReference = 565480562898DC14007F6259 /* MacloDocs_SnapKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5654805F2898DC14007F6259 /* MacloDocs_SnapKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 565480702898DC14007F6259 /* Build configuration list for PBXNativeTarget "MacloDocs_SnapKitUITests" */;
+			buildPhases = (
+				3E9F4BC34F172CF3488F8ED0 /* [CP] Check Pods Manifest.lock */,
+				5654805C2898DC14007F6259 /* Sources */,
+				5654805D2898DC14007F6259 /* Frameworks */,
+				5654805E2898DC14007F6259 /* Resources */,
+				8C180AD80F22E2D3F3ED6697 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				565480622898DC14007F6259 /* PBXTargetDependency */,
+			);
+			name = MacloDocs_SnapKitUITests;
+			productName = MacloDocs_SnapKitUITests;
+			productReference = 565480602898DC14007F6259 /* MacloDocs_SnapKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		565480382898DC12007F6259 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					5654803F2898DC12007F6259 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					565480552898DC14007F6259 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 5654803F2898DC12007F6259;
+					};
+					5654805F2898DC14007F6259 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 5654803F2898DC12007F6259;
+					};
+				};
+			};
+			buildConfigurationList = 5654803B2898DC12007F6259 /* Build configuration list for PBXProject "MacloDocs_SnapKit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 565480372898DC12007F6259;
+			productRefGroup = 565480412898DC12007F6259 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5654803F2898DC12007F6259 /* MacloDocs_SnapKit */,
+				565480552898DC14007F6259 /* MacloDocs_SnapKitTests */,
+				5654805F2898DC14007F6259 /* MacloDocs_SnapKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5654803E2898DC12007F6259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565480502898DC14007F6259 /* LaunchScreen.storyboard in Resources */,
+				5654804D2898DC14007F6259 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565480542898DC14007F6259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5654805E2898DC14007F6259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EC549BE8385DB4A0A9D7DC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MacloDocs_SnapKit/Pods-MacloDocs_SnapKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MacloDocs_SnapKit/Pods-MacloDocs_SnapKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MacloDocs_SnapKit/Pods-MacloDocs_SnapKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E9F4BC34F172CF3488F8ED0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MacloDocs_SnapKit-MacloDocs_SnapKitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C180AD80F22E2D3F3ED6697 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MacloDocs_SnapKit-MacloDocs_SnapKitUITests/Pods-MacloDocs_SnapKit-MacloDocs_SnapKitUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MacloDocs_SnapKit-MacloDocs_SnapKitUITests/Pods-MacloDocs_SnapKit-MacloDocs_SnapKitUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MacloDocs_SnapKit-MacloDocs_SnapKitUITests/Pods-MacloDocs_SnapKit-MacloDocs_SnapKitUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1419118313A8E2DF7BF2248 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MacloDocs_SnapKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4658AB4D79876A50C7893B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MacloDocs_SnapKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5654803C2898DC12007F6259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565480442898DC12007F6259 /* AppDelegate.swift in Sources */,
+				565480462898DC12007F6259 /* SceneDelegate.swift in Sources */,
+				565480762898E06D007F6259 /* MakeConstraintsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565480522898DC14007F6259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5654805B2898DC14007F6259 /* MacloDocs_SnapKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5654805C2898DC14007F6259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565480652898DC14007F6259 /* MacloDocs_SnapKitUITests.swift in Sources */,
+				565480672898DC14007F6259 /* MacloDocs_SnapKitUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		565480582898DC14007F6259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5654803F2898DC12007F6259 /* MacloDocs_SnapKit */;
+			targetProxy = 565480572898DC14007F6259 /* PBXContainerItemProxy */;
+		};
+		565480622898DC14007F6259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5654803F2898DC12007F6259 /* MacloDocs_SnapKit */;
+			targetProxy = 565480612898DC14007F6259 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5654804E2898DC14007F6259 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5654804F2898DC14007F6259 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		565480682898DC14007F6259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		565480692898DC14007F6259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5654806B2898DC14007F6259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20E192D15263B99218B6BB2E /* Pods-MacloDocs_SnapKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76P9HDKDP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MacloDocs_SnapKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MacloDocs.MacloDocs-SnapKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5654806C2898DC14007F6259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D24BB8084BC3C707D6923312 /* Pods-MacloDocs_SnapKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76P9HDKDP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MacloDocs_SnapKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MacloDocs.MacloDocs-SnapKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5654806E2898DC14007F6259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 771DBAFE105757A915E6082F /* Pods-MacloDocs_SnapKitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76P9HDKDP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MacloDocs.MacloDocs-SnapKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacloDocs_SnapKit.app/MacloDocs_SnapKit";
+			};
+			name = Debug;
+		};
+		5654806F2898DC14007F6259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D4EA1A734DC3065DB032932 /* Pods-MacloDocs_SnapKitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76P9HDKDP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MacloDocs.MacloDocs-SnapKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacloDocs_SnapKit.app/MacloDocs_SnapKit";
+			};
+			name = Release;
+		};
+		565480712898DC14007F6259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B03DB9F644187C2FC6F9C63 /* Pods-MacloDocs_SnapKit-MacloDocs_SnapKitUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76P9HDKDP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MacloDocs.MacloDocs-SnapKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MacloDocs_SnapKit;
+			};
+			name = Debug;
+		};
+		565480722898DC14007F6259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F1CE99EE6CA01E743FF255 /* Pods-MacloDocs_SnapKit-MacloDocs_SnapKitUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76P9HDKDP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MacloDocs.MacloDocs-SnapKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MacloDocs_SnapKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5654803B2898DC12007F6259 /* Build configuration list for PBXProject "MacloDocs_SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				565480682898DC14007F6259 /* Debug */,
+				565480692898DC14007F6259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5654806A2898DC14007F6259 /* Build configuration list for PBXNativeTarget "MacloDocs_SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5654806B2898DC14007F6259 /* Debug */,
+				5654806C2898DC14007F6259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5654806D2898DC14007F6259 /* Build configuration list for PBXNativeTarget "MacloDocs_SnapKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5654806E2898DC14007F6259 /* Debug */,
+				5654806F2898DC14007F6259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		565480702898DC14007F6259 /* Build configuration list for PBXNativeTarget "MacloDocs_SnapKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				565480712898DC14007F6259 /* Debug */,
+				565480722898DC14007F6259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 565480382898DC12007F6259 /* Project object */;
+}
