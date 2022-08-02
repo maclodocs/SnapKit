@@ -14,13 +14,19 @@ class MakeConstraintsViewController: UIViewController {
     /*---------------------------------*/
     private var greenView: UIView = .init()
     private var pinkView: UIView = .init()
+    private var backgroundView: UIView = .init()
 
     /*---------------------------------*/
     /* MARK: Lifecycle */
     /*---------------------------------*/
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor(red: 41/255, green: 42/255, blue: 46/255, alpha: 0.75)
+        self.view.backgroundColor = .white
+
+        self.backgroundView.frame = self.view.frame
+        self.backgroundView.backgroundColor = UIColor(red: 253/255, green: 252/255, blue: 220/255, alpha: 0.3)
+        self.view.addSubview(self.backgroundView)
+
         self.greenView.backgroundColor = .green
         self.pinkView.backgroundColor = .systemPink
 
@@ -31,6 +37,9 @@ class MakeConstraintsViewController: UIViewController {
 
         // Uncomment for frame use case
         // self.setupUIFrame()
+
+        // Uncomment for animation case
+        // self.snapKitConstraintsAnimation()
     }
 
     /*---------------------------------*/
@@ -73,6 +82,28 @@ class MakeConstraintsViewController: UIViewController {
             make.top.equalTo(self.greenView.snp.bottom).offset(100)
             make.left.equalTo(self.greenView.snp.right).offset(-20)
             make.size.equalTo(CGSize(width: 75, height: 75))
+        }
+    }
+
+    /*---------------------------------*/
+    /* MARK: Animations */
+    /*---------------------------------*/
+    func snapKitConstraintsAnimation() {
+        self.view.addSubview(self.greenView)
+        self.greenView.snp.makeConstraints { make in
+            make.centerX.equalTo(self.view)
+            make.size.equalTo(CGSize(width: 125, height: 125))
+            make.bottom.equalTo(self.view).offset(200)
+        }
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            self.greenView.snp.updateConstraints { make in
+                make.bottom.equalTo(self.view).offset(-200)
+            }
+
+            UIView.animate(withDuration: 0.75) {
+                self.greenView.superview?.layoutIfNeeded()
+            }
         }
     }
 }
